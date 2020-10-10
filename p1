@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner; 
 class QuickSort
 { 
-	void partition (int[] a, int low,int high) 
+	int partition (int[] a, int low,int high) 
 	{   
 		int p,i,j,temp; 
 		p=a[low];  
